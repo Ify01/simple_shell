@@ -18,12 +18,6 @@ char **tokenizer(char *line)
 	tmp = _strdup(line);
 	token = strtok(tmp, DELIM);
 
-	if (token == NULL)
-	{
-		free(line), line = NULL;
-		free(tmp), tmp = NULL;
-		return (NULL);
-	}
 	while (token)
 	{
 		cpt++;
