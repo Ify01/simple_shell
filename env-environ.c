@@ -3,9 +3,13 @@
 #include <string.h>
 #include <unistd.h>
 
-extern char **environ;
+/**
+ * main - PID
+ * @environ: character
+ * Return: Always 0.
+ */
 
-int main(void)
+int main(char **environ)
 {
 	int e = 0;
 

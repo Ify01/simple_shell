@@ -4,6 +4,11 @@
 #include <sys/wait.h>
 #include <stdlib.h>
 
+/**
+ * main - fork
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 {

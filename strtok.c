@@ -2,6 +2,12 @@
 #include <string.h>
 #include <stdlib.h>
 
+/**
+ * main - string token
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 	int j;

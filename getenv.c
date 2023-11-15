@@ -2,9 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * _getenv - getenv
+ * @name: name
+ * Return: Always 0.
+ */
+
 char *_getenv(const char *name)
 {
-	extern char **environ;
+	char **environ;
 	int e;
 	char *token;
 
@@ -18,8 +24,14 @@ char *_getenv(const char *name)
 		}
 		e++;
 	}
-	return(NULL);
+	return (NULL);
 }
+
+/**
+ * main - getenv
+ *
+ * Return: Always 0.
+ */
 
 void main(void)
 {

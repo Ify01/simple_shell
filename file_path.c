@@ -5,6 +5,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+/**
+ * file_path - file path
+ * @path: path
+ * Return: Always 0.
+ */
+
 void file_path(char *path)
 {
 	if (access(path, F_OK) == 0)
@@ -17,13 +24,19 @@ void file_path(char *path)
 	}
 }
 
+/**
+ * main - file paht
+ *
+ * Return: Always 0.
+ */
+
 int main(void)
 {
 	char *buffer = NULL;
 	size_t bufferSize = 0;
 	char *token;
 
-	while(1)
+	while (1)
 	{
 		write(1, ":) ", 4);
 		getline(&buffer, &bufferSize, stdin);
