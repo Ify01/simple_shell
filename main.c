@@ -3,14 +3,13 @@
 /**
  * main - main
  * @ac: argument
- * @av: arguemnt
+ * @argv: arguemnt
  * Return: Always 0.
  */
 
 int main(int ac, char **argv)
 {
-	char *line = NULL;
-	char **command = NULL;
+	char *line = NULL, **command = NULL;
 	int status = 0;
 	(void) ac;
 

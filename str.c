@@ -44,7 +44,7 @@ char *_strdup(const char *str)
 	if (ptr == NULL)
 		return (NULL);
 	for (i = 0; i <= len; i++)
-		ptr[1] = str[i];
+		ptr[i] = str[i];
 	return (ptr);
 }
 

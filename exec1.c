@@ -1,8 +1,15 @@
 #include "shell.h"
 
+/**
+ * freearray2D - free
+ * @arr: array
+ * Return: success or error
+ */
+
 void freearray2D(char **arr)
 {
 	int i;
+
 	if (!arr)
 		return;
 

@@ -7,7 +7,7 @@
 #include <string.h>
 
 /**
- * get_line - char
+ * read_line - char
  *
  * Return: succes or error
  */
