@@ -25,7 +25,7 @@ int main(void)
 
 	while(1)
 	{
-		write(1, "#cisfun$ ", 9);
+		write(1, ":) ", 4);
 		getline(&buffer, &bufferSize, stdin);
 		token = strtok(buffer, " \t\n");
 		if (strcmp(token, "which") == 0)
