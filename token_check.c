@@ -23,7 +23,7 @@ char **tokenizer(char *line)
 		free(line), line = NULL;
 		free(tmp), tmp = NULL;
 		return (NULL);
-        }
+	}
 
 	while (token)
 	{
