@@ -14,7 +14,7 @@ char *_getpath(char *command)
 	path_env = _getenv("PATH");
 
 	dir = strtok(path_env, ":");
-	while(dir)
+	while (dir)
 	{
 		full_cmd = malloc(_strlen(dir) + _strlen(command) + 2);
 		if (full_cmd)

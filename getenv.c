@@ -2,8 +2,8 @@
 
 /**
  * _getenv - get environ
- * @val: val
- * Retrun: successs or error
+ * @var: val
+ * Return: successs or error
  */
 
 char *_getenv(char *var)
