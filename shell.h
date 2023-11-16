@@ -23,5 +23,6 @@ int _execute(char **command, char **argv);
 char **tokenizer(char *line);
 void freearray2D(char **arr);
 extern char **environ;
-
+char *_getenv(char *var);
+char *_getpath(char *command);
 #endif
